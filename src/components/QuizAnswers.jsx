@@ -84,7 +84,7 @@ const QuizAnswers = ({
   return !processedAnswers || !processedAnswers.length ? (
     <>
       <Typography variant="h1" className={classes.mainTitle}>
-        Answer flowing Questions:
+        Questions:
       </Typography>
       <form onSubmit={handleResult}>
         <Grid container spacing={4}>

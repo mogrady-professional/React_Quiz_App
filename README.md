@@ -2,7 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img src="https://github.com/mogrady-professional/React_Quiz_App/blob/master/src/Capture.PNG" width="100%"/>
+<img src="https://github.com/mogrady-professional/React_Quiz_App/blob/master/src/logo.png" width="100%"/>
+
 ## Available Scripts
+
 
 In the project directory, you can run:
 

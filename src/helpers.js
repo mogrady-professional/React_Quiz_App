@@ -40,7 +40,7 @@ export const styles = {
     results: {
         display: "flex",
         margin: "0 auto",
-        maxWidth: "150px",
+        maxWidth: "250px",
         textAlign: "center",
         flexDirection: "column",
     },
