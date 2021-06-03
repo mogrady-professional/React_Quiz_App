@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// API https://opentdb.com/ - Free to use, user-contributed trivia question database.
+// material-ui - React components for faster and easier web development. Build your own design system, or start with Material Design.
+
+import QuizCategories from './components/QuizCategories'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <QuizCategories />
     </div>
   );
 }
