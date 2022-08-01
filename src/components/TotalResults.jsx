@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import logo from "../logo.svg";
 import { Button, Typography } from "@material-ui/core";
 import AnswersReview from "./AnswersReview";
 import { useEffect } from "react";
@@ -42,7 +42,9 @@ const TotalResults = ({
       </Button>
       <p>Built with React</p>
       <img src={logo} className="App-logo" alt="logo" />
-      <p><a href="http://www.michaelogrady.net">Michael O'Grady</a> &copy; 2021</p>
+      <p>
+        <a href="http://www.michaelogrady.com">Michael O'Grady</a> &copy; 2021
+      </p>
     </div>
   ) : (
     <AnswersReview
